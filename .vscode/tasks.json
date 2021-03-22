@@ -11,7 +11,16 @@
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}.out",
 				"&&",
-				"${fileDirname}/${fileBasenameNoExtension}.out"
+				"${fileDirname}/${fileBasenameNoExtension}.out",
+
+				// 추가
+				// file input
+				// "<",
+				// "${fileDirname}/input.txt",
+
+				// file output
+				// ">",
+				// "${fileDirname}/output.txt"
 			],
 			"options": {
 				"cwd": "${workspaceFolder}"
