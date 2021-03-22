@@ -1,0 +1,14 @@
+{ "version": "0.2.0", 
+    "configurations": [
+        { 
+            "type": "lldb", 
+            "request": "launch", 
+            "name": "Launch", 
+            "program": "${fileDirname}/${fileBasenameNoExtension}.out", 
+            "args": [], 
+            "preLaunchTask": "C/C++: gcc 활성 파일 빌드", 
+            "stdio": [null,null,null], 
+            "terminal": "integrated"
+        } 
+    ]
+}
