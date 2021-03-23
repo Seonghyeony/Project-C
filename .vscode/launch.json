@@ -7,7 +7,8 @@
             "program": "${fileDirname}/${fileBasenameNoExtension}.out", 
             "args": [], 
             "preLaunchTask": "C/C++: gcc 활성 파일 빌드", 
-            "stdio": [null,null,null], 
+            // "stdio": [null,null,null],
+            "stdio": ["${fileDirname}/input.txt","${fileDirname}/output.txt",null], 
             "terminal": "integrated"
         } 
     ]

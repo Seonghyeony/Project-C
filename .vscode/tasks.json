@@ -15,12 +15,12 @@
 
 				// 추가
 				// file input
-				// "<",
-				// "${fileDirname}/input.txt",
+				"<",
+				"${fileDirname}/input.txt",
 
 				// file output
-				// ">",
-				// "${fileDirname}/output.txt"
+				">",
+				"${fileDirname}/output.txt"
 			],
 			"options": {
 				"cwd": "${workspaceFolder}"
