@@ -3,22 +3,18 @@
 	"tasks": [
 		{
 			"type": "cppbuild",
-			"label": "C/C++: gcc 활성 파일 빌드",
-			"command": "/usr/bin/gcc",
+			"label": "C/C++: g++ 활성 파일 빌드",
+			"command": "/usr/bin/g++",
 			"args": [
 				"-g",
+				"-std=c++17",
 				"${file}",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}.out",
 				"&&",
 				"${fileDirname}/${fileBasenameNoExtension}.out",
-
-				// 추가
-				// file input
 				"<",
 				"${fileDirname}/input.txt",
-
-				// file output
 				">",
 				"${fileDirname}/output.txt"
 			],
@@ -28,11 +24,8 @@
 			"problemMatcher": [
 				"$gcc"
 			],
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			},
-			"detail": "컴파일러: /usr/bin/gcc"
+			"group": "build",
+			"detail": "컴파일러: /usr/bin/g++"
 		}
 	]
 }
