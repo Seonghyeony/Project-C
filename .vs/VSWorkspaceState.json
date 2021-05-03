@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TCP Echo Project",
+    "\\TCP Echo Project\\Client"
   ],
+  "SelectedNode": "\\TCP Echo Project\\Client\\main.cpp",
   "PreviewInSolutionExplorer": false
 }
